@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+.intro-div{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+}
+.Projects-div{
+  background-color: brown;
+  width: 100%;
+  margin-top: 40px;
+  height: 600px;
+}
+.Pfp-and-Name{
+  margin-top: 50px;
+  background-color: bisque;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.Pfp{
+  margin-left: 60px;
+  width: 700px;
+  height: 100%;
+}
+.Name{
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  border: solid black 1px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12%;
+  padding-left: 10%;
+}
+.Icons{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  width: 100%;
+}
+.Logos{
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 1140px) {
+  .Logos{
+    width: 90px;
+    height: 90px;
+  }
+}
+@media (max-width: 1030px) {
+  .Logos{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 950px) {
+  .Logos{
+    width: 70px;
+    height: 70px;
+  }
+  .Pfp{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 810px) {
+  .Logos{
+    width: 60px;
+    height: 60px;
+  }
+  .Name{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    border: solid black 1px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    padding-left: 5%;
+  }
+}
