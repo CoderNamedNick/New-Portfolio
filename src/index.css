@@ -14,24 +14,34 @@ code {
 .App{
   display: flex;
   flex-direction: column;
-  background-color: blueviolet;
+  background-color: rgb(233, 233, 233);
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: grey;
+  font-size: 22px;
 }
 .intro-div{
-  background-color: blue;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to top, #807e7e, rgb(233, 233, 233));
   width: 100%;
   height: 800px;
 }
 .Projects-div{
-  background-color: brown;
   width: 100%;
   margin-top: 40px;
   height: 600px;
 }
 .Pfp-and-Name{
   margin-top: 50px;
-  background-color: bisque;
   height: 80%;
   display: flex;
   flex-direction: row;
@@ -71,14 +81,16 @@ code {
 }
 @media (max-width: 1030px) {
   .Logos{
+    padding-top: 2%;
     width: 80px;
     height: 80px;
   }
 }
 @media (max-width: 950px) {
   .Logos{
+    padding-top: 2%;
     width: 70px;
-    height: 70px;
+    height: 80px;
   }
   .Pfp{
     margin-left: 10px;
@@ -86,8 +98,9 @@ code {
 }
 @media (max-width: 810px) {
   .Logos{
+    padding-top: 3%;
     width: 60px;
-    height: 60px;
+    height: 70px;
   }
   .Name{
     margin-top: 100px;
@@ -100,4 +113,59 @@ code {
     gap: 12%;
     padding-left: 5%;
   }
+}
+@media (max-width: 700px) {
+  .Logos{
+    padding-top: 5%;
+    width: 50px;
+    height: 60px;
+  }
+  
+}
+@media (max-width: 585px) {
+  .Logos{
+    padding-top: 5%;
+    width: 45px;
+    height: 55px;
+  }
+  .Name{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    border: solid black 1px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding-left: 0%;
+  }
+}
+.Project-main{
+  border-top: 5px solid black;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, #636060, rgb(247, 232, 232));
+}
+.Projects{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.Projects-img-and-links{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.ProjectImgs{
+  width: 50%;
+  border: black groove 5px;
+}
+.project-description{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 25px;
 }
