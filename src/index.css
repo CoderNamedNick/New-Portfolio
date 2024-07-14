@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a{
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -56,7 +61,6 @@ code {
   margin-top: 100px;
   width: 100%;
   height: 300px;
-  border: solid black 1px;
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -68,6 +72,7 @@ code {
   flex-direction: row;
   gap: 2px;
   width: 100%;
+  border-top: 2px solid black;
 }
 .Logos{
   width: 100px;
@@ -103,13 +108,7 @@ code {
     height: 70px;
   }
   .Name{
-    margin-top: 100px;
-    width: 100%;
-    height: 300px;
-    border: solid black 1px;
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
     gap: 12%;
     padding-left: 5%;
   }
@@ -120,7 +119,11 @@ code {
     width: 50px;
     height: 60px;
   }
-  
+  .Name{
+    font-size: 20px;
+    gap: 5%;
+    padding-left: 0%;
+  }
 }
 @media (max-width: 585px) {
   .Logos{
@@ -129,15 +132,59 @@ code {
     height: 55px;
   }
   .Name{
-    margin-top: 100px;
-    width: 100%;
-    height: 300px;
-    border: solid black 1px;
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
     gap: 5%;
     padding-left: 0%;
+  }
+}
+@media (max-width: 532px) {
+  .Logos{
+    padding-top: 5%;
+    width: 40px;
+    height: 50px;
+  }
+  .Name{
+    font-size: 20px;
+    gap: 5%;
+    padding-left: 0%;
+  }
+  .Pfp{
+    margin-left: 5px;
+    width: 300px;
+    height: 640px;
+  }
+}
+@media (max-width: 475px) {
+  .Logos{
+    padding-top: 5%;
+    width: 35px;
+    height: 50px;
+  }
+  .Pfp-and-Name{
+    margin-top: 50px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .Logos{
+    padding-top: 6%;
+    width: 30px;
+    height: 50px;
+  }
+  .Pfp-and-Name{
+    margin-top: 50px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .Pfp{
+    margin-left: 2px;
+    width: 280px;
+    height: 640px;
   }
 }
 .Project-main{

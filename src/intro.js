@@ -17,14 +17,14 @@ const Intro = () => {
   return (
     <div className="intro-div" >
       <div className="Pfp-and-Name">
-        <img src={PFP} className="Pfp">
+        <img src={PFP} alt="ME" className="Pfp">
 
         </img>
         <div className="Name">
           <div>Nicholas Lloyd, 21</div>
           <div>Junior Web Developer</div>
-          <div>Github</div>
-          <div>My Favorite Project</div>
+          <div><a href="https://github.com/CoderNamedNick">Github</a></div>
+          <div><a href="https://github.com/CoderNamedNick/React-Social-App">My Favorite Project Repo</a></div>
         </div>
       </div>
       <div className="Icons">

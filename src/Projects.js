@@ -13,9 +13,9 @@ const Projects = () => {
         <div className="Projects-img-and-links">
           <img src={Project1} className="ProjectImgs"></img>
           <div>
-            <h2>HIDIVE CLONE</h2>
-            <h2>SEE IN ACTION</h2>
-            <h2>GITHUB REPOSITORY</h2>
+            <h1>HIDIVE CLONE</h1>
+            <h2><a href="https://codernamednick.github.io/HiDiveCloneProject/Hidiveclone/index.html">SEE IN ACTION</a></h2>
+            <h2><a href="https://github.com/CoderNamedNick/HiDiveCloneProject?tab=readme-ov-file">GITHUB REPOSITORY</a></h2>
           </div>
         </div>
         <div className="project-description">
@@ -27,9 +27,9 @@ const Projects = () => {
         <div className="Projects-img-and-links">
           <img src={Project2} className="ProjectImgs"></img>
           <div>
-            <h2>RPG REACT GAME</h2>
-            <h2>SEE IN ACTION</h2>
-            <h2>GITHUB REPOSITORY</h2>
+            <h1>RPG REACT GAME</h1>
+            <h2><a href="https://codernamednick.github.io/RPG-react-game/">SEE IN ACTION</a></h2>
+            <h2><a href="https://github.com/CoderNamedNick/RPG-react-game?tab=readme-ov-file">GITHUB REPOSITORY</a></h2>
           </div>
         </div>
         <div className="project-description">
@@ -41,9 +41,9 @@ const Projects = () => {
         <div className="Projects-img-and-links">
           <img src={Project3} className="ProjectImgs"></img>
           <div>
-            <h2>Blog</h2>
-            <h2>SEE IN ACTION</h2>
-            <h2>GITHUB REPOSITORY</h2>
+            <h1>Blog</h1>
+            <h2><a href="https://codernamednick.github.io/Blog/">SEE IN ACTION</a></h2>
+            <h2><a href="https://github.com/CoderNamedNick/Blog">GITHUB REPOSITORY</a></h2>
           </div>
         </div>
         <div className="project-description">
@@ -55,10 +55,10 @@ const Projects = () => {
         <div className="Projects-img-and-links">
           <img src={Project4} className="ProjectImgs"></img>
           <div>
-            <h2>Tavern</h2>
-            <h2>SEE IN ACTION</h2>
-            <h2>Front-End GITHUB REPOSITORY</h2>
-            <h2>Back-End GITHUB REPOSITORY</h2>
+            <h1>Tavern</h1>
+            <h2><a href="https://tavern-ehla.onrender.com/">SEE IN ACTION</a></h2>
+            <h2><a href="https://github.com/CoderNamedNick/React-Social-App">Front-End GITHUB REPOSITORY</a></h2>
+            <h2><a href="https://github.com/CoderNamedNick/Social-App-Backend">Back-End GITHUB REPOSITORY</a></h2>
           </div>
         </div>
         <div className="project-description">
