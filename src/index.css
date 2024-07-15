@@ -32,6 +32,7 @@ code {
   padding-top: 20px;
   background-color: grey;
   font-size: 22px;
+  position: fixed;
 }
 .intro-div{
   display: flex;
@@ -39,6 +40,7 @@ code {
   background: linear-gradient(to top, #807e7e, rgb(233, 233, 233));
   width: 100%;
   height: 800px;
+  margin-top: 25px;
 }
 .Projects-div{
   width: 100%;
@@ -215,4 +217,26 @@ code {
   text-align: center;
   font-size: 26px;
   margin-bottom: 25px;
+}
+.Contacts-Main{
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  margin-left: 2%;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.Contacts-div{
+  background-color: rgb(173, 170, 170);
+  border: solid black 3px;
+  border-radius: 15%;
+  padding: 100px 80px;
+}
+.Contacts-div:hover{
+  background: linear-gradient(to right,  rgb(83, 82, 82),  rgb(173, 170, 170));
+  border-left: solid black 5px;
+}
+.contacts-imgs{
+  width: 100px;
+  height: 100px;
 }
