@@ -240,3 +240,27 @@ code {
   width: 100px;
   height: 100px;
 }
+@media (max-width: 825px) {
+  .Contacts-div{
+    border-radius: 15%;
+    padding: 80px 60px;
+  }
+}
+@media (max-width: 705px) {
+  .Contacts-div{
+    border-radius: 15%;
+    padding: 60px 40px;
+  }
+}
+@media (max-width: 590px) {
+  .Contacts-div{
+    border-radius: 15%;
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 450px) {
+  .Contacts-div{
+    border-radius: 15%;
+    padding: 20px 2px;
+  }
+}
