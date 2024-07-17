@@ -1,5 +1,5 @@
 import React from "react";
-import PFP from './images/stock imgae.png'
+import PFP from './images/IMG_8897.png'
 import GithubLogo from './icons/icons8-github-48.png'
 import GitLogo from './icons/icons8-git-96.png'
 import VScodeLogo from './icons/icons8-vs-code-96.png'
